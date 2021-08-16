@@ -6,6 +6,7 @@ body {
   background-color: #001821;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
 }
 a {
   color: inherit;
@@ -19,7 +20,7 @@ ul li {
   list-style: none;
 }
 
-h1 h2 h3 h4 h5 h6 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-weight: normal;
 }
@@ -37,7 +38,7 @@ p {
   width: 1140px;
 }
 .header {
-  height: 120px;
+  min-height: 120px;
   position: relative;
   margin-bottom: 71px;
 }
@@ -45,7 +46,6 @@ p {
   display: block;
   position: absolute;
   top: 25px;
-  left: 0;
 }
 .menu {
   position: absolute;
@@ -96,12 +96,10 @@ p {
   font-size: 13px;
   text-decoration: underline;
   color: #FFFFFF;
-  position: relative;
-  top: -7px;
-  left: -2px;
+  margin-top: -5px;
 }
 .hero {
-  margin-bottom: 214px;
+  margin-bottom: 245px;
 }
 .hero__textsection {
   width: 511px;
@@ -110,14 +108,14 @@ p {
   font-size: 72px;
   font-weight: bold;
   line-height: 1.4;
-  margin-bottom: 18px;
+  margin-bottom: 22px;
 
 }
 .hero__subtitle {
   font-size: 18px;
   font-style: normal;
   font-weight: normal;
-  margin-bottom: 31px;
+  margin-bottom: 33px;
 
 }
 .btn {
@@ -141,9 +139,11 @@ p {
   
 }
 
-
+.section-tours {
+  margin-bottom: 128px;
+}
 .section__title {
-  margin-bottom: 22px;
+  margin-bottom: 51px
 }
 .section__title-tours {
   font-size: 36px;
@@ -160,9 +160,7 @@ p {
   top: 3px;
   left: -1px;
 }
-.offers {
-  margin-bottom: 128px;
-}
+
 .offers__item {
   min-height: 449px;
   background: #FFFFFF;
@@ -176,7 +174,7 @@ p {
 }
 .offers__header {
   min-height: 144px;
-  margin-bottom: 0px;
+  margin-bottom: 25px;
 }
 .offers__content {
   padding: 4px 22px;
@@ -185,7 +183,7 @@ p {
 .offers__country {
   font-weight: bold;
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
 }
 .offers__title{
   margin-bottom: 19.5px;
@@ -200,9 +198,11 @@ p {
   margin-right: 8px;
 
 }
+.offers__details:last-child {
+  margin-right: 0;
+}
 .offers__fulltitle {
-  width: 324PX;
-  height: 63px;
+  width: 324px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -247,6 +247,9 @@ p {
   padding: 17px 30px;
 
 }
+.section-content-news {
+  margin-bottom: 145px;
+}
 .section__title {
   font-style: normal;
   font-weight: bold;
@@ -255,10 +258,10 @@ p {
 }
 
 .section__news {
-  margin-bottom: 50px;
+  margin-bottom: 51px;
 }
 .news {
-  margin-bottom: 57.5px;
+  margin-bottom: 54.5px;
 }
 .news__item {
   width: 557px;
@@ -286,17 +289,17 @@ p {
   right: 0;
   bottom: 0;
   padding: 0px 30px;
-  min-height: 131px;
+  min-height: 140px;
 
 }
 .news__data {
+  display: inline-block;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 21px;
-  margin-bottom: 12.5px;
-  position: relative;
-  top: -12px;
+  margin-bottom: 9.5px;
+  
 }
 .news__title {
   font-style: normal;
@@ -315,7 +318,6 @@ p {
 }
 .pager {
   text-align: center;
-  margin-bottom: 141px
 }
 .pager__display,.pager__list {
   display: inline-block;
