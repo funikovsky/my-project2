@@ -1,0 +1,72 @@
+.offers__item {
+  min-height: 449px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 22px;
+  width: 362px;
+}
+.offers__item:last-child {
+  margin-right: 0;
+}
+.offers__header {
+  min-height: 144px;
+  margin-bottom: 25px;
+}
+.offers__content {
+  padding: 4px 22px;
+  color: #000000;
+}
+.offers__country {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 19px;
+}
+.offers__title{
+  margin-bottom: 19.5px;
+  padding: 0px 6px;
+  
+}
+.offers__details {
+  font-weight: normal;
+  font-size: 16px;
+  display: inline-block;
+  width: 140px;
+  margin-right: 8px;
+
+}
+.offers__details:last-child {
+  margin-right: 0;
+}
+.offers__fulltitle {
+  width: 324px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #303030;
+  margin-bottom: 24.5px;
+  
+  
+}
+.offers__title-calendar {
+  display: inline-block;
+  margin-right: 5px;
+}
+.offers__title-nights {
+  display: inline-block;
+  color: #666666;
+  position: relative;
+  top: -7px;
+}
+.offers__title-food {
+  display: inline-block;
+  margin-right: 5px;
+  
+}
+.offers__title-breakfast {
+  display: inline-block;
+  color: #666666;
+  position: relative;
+  top: -7px;
+}

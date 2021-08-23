@@ -1,0 +1,34 @@
+.section-tours {
+  margin-bottom: 127px;
+}
+.section__title {
+  margin-bottom: 51px
+}
+.section__title-tours {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 2px;
+  line-height: 49px;
+}
+.section__title-img {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  left: -1px;
+}
+.section-content-news {
+  margin-bottom: 145px;
+}
+.section__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+}
+
+.section__news {
+  margin-bottom: 51px;
+}

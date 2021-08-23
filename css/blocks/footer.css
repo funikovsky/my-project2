@@ -1,0 +1,19 @@
+.footer-conteiner__content {
+  border-top: 1px solid #FFFFFF ;
+}
+.footer {
+  height: 142px;
+  display: flex;
+  margin-top: 23px;
+  align-items: center;
+
+}
+.footer__menu {
+  margin-right: 274px;
+}
+.footer__wrapper {
+  background-color: #001821;
+}
+.footer__services {
+  margin: 0;
+}

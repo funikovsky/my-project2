@@ -1,0 +1,33 @@
+.btn {
+  background: #F5170E;
+  padding: 17px 40px;
+  width: 168px;
+  height: 55px;
+  border-radius: 35px;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.btn:hover {
+  background: #DA0100;
+  color: #fff;
+  
+}
+.btn--color--white {
+  background: #FFFFFF;
+  border: 1px solid #F5170E;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #F5170E;
+  width: 135px;
+  height: 55px;
+  padding: 17px 30px;
+
+}

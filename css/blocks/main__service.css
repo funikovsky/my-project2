@@ -1,0 +1,29 @@
+.main__service-list {
+  margin-bottom: 65px;
+
+}
+.main__service-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 49px;
+
+}
+.main__service-item:last-child {
+  margin-bottom: 0;
+}
+.main__service-img {
+  margin-right: 56px;
+}
+
+.main__service-name {
+  font-size: 36px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 28.5px;
+}
+.main__service-name-desc {
+  margin-bottom: 34.5px;
+  line-height: 27px;
+  color: #303030;
+}

@@ -1,0 +1,6 @@
+.main-page-wrapper{
+  background: url("../img/jungle.png") center top -3px no-repeat, url("../img/man.png") right 276px bottom 161px no-repeat;
+}
+.services-page-wrapper {
+  background-color: white;
+}
