@@ -3,20 +3,31 @@
   font-weight: bold;
   font-size: 48px;
   line-height: 65px;
-  margin-bottom: 79px;
+  margin-bottom: 61px;
 }
-.partners__list {
+.partners__list{
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: space-between;
-  margin-bottom: -31px;
-
-}
-.partners__list--top {
-  align-items: center;
+  
 }
 .partners__item {
-  flex: 0 1 auto;
-  margin-bottom: 70px;
+  margin-left: 46px;
 }
+.partners__item:nth-child(4n + 1) {
+  margin-left: 0;
+}
+.partners__item:nth-child(7) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.partners__link {
+  text-decoration: none;
+  display: flex;
+  width: 250px;
+  height: 125px;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+
