@@ -1,10 +1,12 @@
+.offers {
+  display: flex;
+  justify-content: space-between;
+}
 .offers__item {
   min-height: 449px;
   background: #FFFFFF;
   border-radius: 4px;
-  display: inline-block;
-  margin-right: 22px;
-  width: 362px;
+  width: calc(100%/3 - 18px);
 }
 .offers__item:last-child {
   margin-right: 0;
