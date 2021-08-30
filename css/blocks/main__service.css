@@ -5,12 +5,16 @@
 .main__service-item {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-bottom: 49px;
 
 }
 .main__service-item:last-child {
   margin-bottom: 0;
+}
+
+.main__service-desc {
+  padding: 6px 0 6px 0px;
+
 }
 .main__service-img {
   margin-right: 56px;

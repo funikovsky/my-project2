@@ -1,0 +1,66 @@
+.welcom {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../../img/bgwelcom.png) center bottom 40px /cover no-repeat;
+
+}
+
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+}
+.central__title {
+  margin-bottom: 52.5px;
+  font-size: 18px;
+  
+}
+.central__img {
+  position: absolute;
+  z-index: 0;
+  bottom: 70px;
+}
+.zindex {
+  z-index: 1;
+}
+.btn--welcom {
+  text-align: center;
+}
+.central--asia {
+  
+  opacity: 0;
+  animation: zoom .8s ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes zoom {
+  from {
+    transform: scale(.7);
+
+  }
+  20% {
+    transform: scale(1.2);
+  }
+  40% {
+    transform: scale(.8);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  80% {
+    transform: scale(.9);
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+
+  }
+}

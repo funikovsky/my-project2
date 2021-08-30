@@ -1,3 +1,6 @@
+html, body {
+  height: 100%;
+}
 body {
   font-family: "Open Sans", Helvetica, sans-serif;
   color: #fff;
@@ -7,6 +10,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
 }
 a {
   color: inherit;
@@ -25,12 +32,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 p {
-  margin-top: 0;
+  margin: 0;
 }
 * {
   box-sizing: border-box;
 }
 
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
 .conteiner {
   margin: 0 auto;
   width: 1140px;

@@ -12,7 +12,7 @@
 </head>
 <body>
   <div class="wrapper services-page-wrapper">
-    <section class="hero__section">
+    <section class="hero__section hero__section-services">
       <div class="conteiner">
         <header class="header header__services">
           <a href="/" class="logo">
@@ -20,14 +20,24 @@
           </a>
           <nav class="menu">
             <ul class="menu__list">
-              <li class="menu__item"> <a href="/index.html" class="menu__link">Главная</a> </li>
+              <li class="menu__item"> <a href="./main.html" class="menu__link">Главная</a> </li>
               <li class="menu__item menu__item--active"> <a href="/services.html" class="menu__link">Услуги</a> </li>
-              <li class="menu__item"> <a href="#" class="menu__link">Отзывы</a> </li>
+              <li class="menu__item"> <a href="./reviews.html" class="menu__link">Отзывы</a> </li>
             </ul>
           </nav>
           <address class="contacts">
             <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-            <div class="contacts__dropdown-title">График работы</div>
+            <div class="contacts__dropdown">
+              <span class="dropdown__title">График работы</span>
+              <div class="dropdown__desc">
+                <div class="triangle"></div>
+                <div class="dropdown__desc-conteiner">
+                  <strong>пн-вс: 09:00 - 20:00</strong>
+                  <p>Обед: 14:00-14:30</p>
+                  
+                </div>
+              </div>
+            </div>
           </address>
         </header>
         
@@ -35,10 +45,10 @@
         <nav class="breadcrumbs">
           <ul class="breadcrumbs__list">
             <li class="breadcrumbs__item">
-              <a href="/" class="breadcrumbs__link">Главная</a>
+              <a href="./main.html" class="breadcrumbs__link">Главная</a>
             </li>
             <li class="breadcrumbs__item breadcrumbs__item--active">
-              <a href="#" class="breadcrumbs__link ">Услуги</a>
+              <a href="./services.html" class="breadcrumbs__link ">Услуги</a>
             </li>
           </ul>
         </nav>
@@ -144,8 +154,8 @@
 
       </div>
     </section>
-     <div class="footer__wrapper">
-      <footer class="footer-conteiner">
+    <footer class="service__footer">
+      <div class="service__footer-conteiner">
         <div class="conteiner">
           <div class="footer footer__services">
             <a href="/" class="logo">
@@ -153,23 +163,31 @@
             </a>
             <nav class="menu footer__menu">
               <ul class="menu__list">
-                <li class="menu__item"> <a href="/" class="menu__link">Главная</a> </li>
+                <li class="menu__item"> <a href="./main.html" class="menu__link">Главная</a> </li>
                 <li class="menu__item menu__item--active"> <a href="./services.html" class="menu__link">Услуги</a> </li>
-                <li class="menu__item"> <a href="#" class="menu__link">Отзывы</a> </li>
+                <li class="menu__item"> <a href="./reviews.html" class="menu__link">Отзывы</a> </li>
               </ul>
             </nav>
             <ul class="socials">
-              <li class="socials__item socials__item--icon--telegram">
-                <a href="#" class="socials__link"></a>
+              <li class="socials__item ">
+                <a href="#" class="socials__link">
+                  <div class="socials__link--icon socials__item--icon--telegram"></div>
+                </a>
               </li>
-              <li class="socials__item socials__item--icon--vk">
-                <a href="#" class="socials__link"></a>
+              <li class="socials__item ">
+                <a href="#" class="socials__link">
+                  <div class="socials__link--icon socials__item--icon--vk"></div>
+                </a>
               </li> 
-              <li class="socials__item socials__item--icon--facebook">
-                <a href="#" class="socials__link"></a>
+              <li class="socials__item ">
+                <a href="#" class="socials__link">
+                  <div class="socials__link--icon socials__item--icon--facebook"></div>
+                </a>
               </li> 
-              <li class="socials__item socials__item--icon--instagram">
-                <a href="#" class="socials__link"></a>
+              <li class="socials__item ">
+                <a href="#" class="socials__link">
+                  <div class="socials__link--icon socials__item--icon--instagram"></div>
+                </a>
               </li>
             </ul>
           
@@ -179,8 +197,8 @@
             </address>
           </div>
         </div>
-      </footer>
-    </div> 
+      </div>
+    </footer> 
   </div>
   
 </body>

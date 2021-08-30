@@ -1,0 +1,223 @@
+.body__reviews {
+  background: #fff;
+}
+.page-content--color--white {
+  background: #fff;
+}
+.reviews {
+  column-count: 2;
+  column-gap: 27px;
+  margin-bottom: 71px;
+}
+.review {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 28px;
+  background: #F4F5F5;
+
+}
+.reviews__item {
+  margin-bottom: 17px;
+}
+.review__header {
+  display: flex;
+  align-items: center;
+  
+  margin-bottom: 30px;
+}
+.review__photo {
+  margin-right: 22px;
+}
+.avatar {
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.review__user {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #2E77A4;
+  text-decoration: none;
+  margin-bottom: 11px;
+}
+.review__user:after {
+  content: url(../../img/vkblue1.png);
+  height: 30px;
+  margin-left: 6px;
+}
+.review__title {
+  font-weight: bold;
+  font-size: 30px;
+  color: #1A1B1E;
+  margin-bottom: 13px;
+}
+.review__content-text {
+  font-size: 16px;
+  color: #818181;
+  margin-bottom: 48.5px;
+}
+.review__data {
+  font-size: 14px;
+}
+.review__tags {
+  display: flex;
+  align-items: flex-start;
+}
+.tag {
+  font-size: 13px;
+  color: #303030;
+  padding: 9px 17px;
+  border-radius: 50px;
+  background: #E7E7E7;
+}
+.tag--bg--green {
+  background: #B9EAE4;
+}
+
+.review__data {
+  font-size: 14px;
+  color: #1A1B1E;
+}
+.section-reviews {
+  background:#001821;
+  margin-top: auto;
+}
+.pager__reviews {
+  color: #000000;
+  margin-bottom: 86px;
+}
+.separator {
+  display: flex;
+  min-height: 363px;
+  flex-direction: column;
+  background: url('../../img/seprev.png') center center /cover no-repeat;
+  
+}
+
+.separator__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 65px;
+  
+  font-size: 32px;
+
+}
+.separator__content:last-child {
+  margin-right: 32px;
+}
+.separator__title {
+  max-width: 50%;
+  font-weight: bold;
+  padding: 0 0 20px 0;
+  
+}
+.separator__img {
+  padding: 22px 0 0 0;
+}
+.separator__img-content {
+  width: 100%;
+}
+.inner-section--bg--grey {
+  background: #F4F5F5;
+  padding: 62px 0 96px 0;
+}
+.inner-section__title {
+  margin-bottom: 57px;
+  color: #1A1B1E;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 65px;
+}
+.form__row {
+  display: flex;
+  margin-bottom: 30px;
+}
+.form__row--mb {
+  margin-bottom: 20px;
+}
+
+.form__input {
+  flex: 1;
+  margin-right: 30px;
+  border-radius: 5px;
+  border: none;
+  background: #fff;
+  padding: 19px 30px;
+  font-size: 18px;
+  height: 65px;
+}
+
+.form__input::placeholder {
+  color: #666
+
+}
+.form__input:last-child {
+  
+  margin-right: 0
+}
+.form__input__textarea {
+  height: 235px;
+  resize: none;
+}
+.form__controls {
+  display: flex;
+  margin-bottom: 24px;
+}
+.form__controls-title {
+  width: 37%;
+  color: #1A1B1E;
+  padding: 13px 0 0 0;
+  font-size: 18px;
+}
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.controls__item {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.controls__elem {
+  cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+  background: #B9EAE4;
+}
+.controls__checkbox {
+  display: none;
+}
+.btn--color--black {
+  background: #2B2B2B;
+}
+.form__btn {
+  margin-right: 17px;
+}
+.form__btn:last-child {
+  margin-right: 0;
+}
+.form__btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form--focus--black:focus {
+  color: #1A1B1E;
+  
+}
+input {
+  outline-color: red;
+}
+textarea {
+  outline-color: red;
+}
+.form__input:hover
+{
+border:3px solid red; 
+}
