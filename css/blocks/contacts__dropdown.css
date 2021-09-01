@@ -6,6 +6,9 @@
 .contacts__dropdown:hover .dropdown__desc {
   display: block;
   opacity: 1;
+  visibility: visible;
+  left: auto;
+  
   
 
 }
@@ -17,6 +20,7 @@
 .dropdown__desc {
   background: #EDEDED;
   opacity: 0;
+  visibility: hidden;
   position: absolute;
   height: 67px;
   width: 160px;
@@ -30,6 +34,7 @@
   color: black;
   padding: 13px 13px;
   text-align:left;
+  left: -9999px;
 }
 .dropdown__desc:after {
   content: "";
@@ -43,3 +48,11 @@
   left: 101px;
 
 }
+.dropdown__desc::before {
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: 160px;
+  bottom: 100%;
+}
+
