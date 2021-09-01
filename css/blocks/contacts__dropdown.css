@@ -28,8 +28,11 @@
   margin-top: 7px;
   right: 1px;
   color: black;
+  padding: 13px 13px;
+  text-align:left;
 }
-.triangle {
+.dropdown__desc:after {
+  content: "";
   position:absolute;
   border: 10px solid transparent;
   width: 0;
@@ -39,9 +42,4 @@
   bottom:100%;
   left: 101px;
 
-}
-.dropdown__desc-conteiner {
-  padding: 13px;
-  text-align:left;
-  
 }

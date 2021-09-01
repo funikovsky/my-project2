@@ -10,6 +10,7 @@
 
 }
 .service__footer {
+  min-width: 1140px;
   background: #001821;
   margin-top: auto;
 }

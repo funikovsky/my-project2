@@ -1,5 +1,6 @@
 .body__reviews {
   background: #fff;
+ 
 }
 .page-content--color--white {
   background: #fff;
@@ -90,10 +91,12 @@
   margin-bottom: 86px;
 }
 .separator {
-  display: flex;
+
   min-height: 363px;
-  flex-direction: column;
-  background: url('../../img/seprev.png') center center /cover no-repeat;
+  
+  background: url('../../img/seprev.png') center center/ cover no-repeat;
+
+ 
   
 }
 
@@ -122,6 +125,7 @@
   width: 100%;
 }
 .inner-section--bg--grey {
+  min-width: 1140px;
   background: #F4F5F5;
   padding: 62px 0 96px 0;
 }
@@ -139,16 +143,23 @@
 .form__row--mb {
   margin-bottom: 20px;
 }
+textarea, input {
+  border: 1px solid transparent;
+}
+
+textarea:focus, input:focus {
+  border-color: red;
+}
 
 .form__input {
   flex: 1;
   margin-right: 30px;
   border-radius: 5px;
-  border: 3px solid transparent;
   background: #fff;
   padding: 19px 30px;
   font-size: 18px;
   height: 65px;
+  outline: none;
 }
 
 .form__input::placeholder {
@@ -177,12 +188,16 @@
   flex: 1;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: -10px;
+  margin-right: -10px;
   
 }
 .controls__item {
   margin-bottom: 10px;
   margin-right: 10px;
 }
+
+
 .controls__elem {
   cursor: pointer;
 }
@@ -211,13 +226,5 @@
   color: #1A1B1E;
   
 }
-input {
-  outline-color: red;
-}
-textarea {
-  outline-color: red;
-}
-.form__input:hover
-{
-border:3px solid red; 
-}
+
+
