@@ -1,1 +1,1 @@
-# My first project )) [HERE](https://funikovsky.github.io/my-project2/)
+# My first project (only HTML & CSS)) [HERE](https://funikovsky.github.io/my-project2/)
