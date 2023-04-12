@@ -1,6 +1,6 @@
 .main-page-wrapper{
   
-  background: url("https://downloader.disk.yandex.ru/disk/604733735cc0910a6db9d6c96866775ec6f5990a478bf1fb61e555876d4da7c0/643683d4/R6j8GJ9FKxHUXILGMhZGVdMXL960sVMzcFOcfLDleo-6oLh9Aks8H3qbPckfQomxmHgnfTM31hJ2rRDAPeUBqA%3D%3D?uid=1741364275&filename=2ca5c6c4-0ea1-47cd-81c2-b2ed691ba727&disposition=attachment&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1741364275&fsize=113222&hid=2b272f427a7bb20f3cec0aa47e86f3f4&media_type=image&tknv=v2&etag=ea0a090564e929e673ca10d0e8f987a0") center top -3px no-repeat, url("../../img/man.png") right -74px bottom 161px no-repeat;
+  background: url("../../img/jungle.png") center top -3px no-repeat, url("../../img/man.png") right -74px bottom 161px no-repeat;
 }
 
 .services-page-wrapper {
